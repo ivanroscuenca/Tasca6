@@ -1,11 +1,11 @@
-package N2ex1;
+package N2ex2;
 
 public class GenericMethods {
-    private int age;
-    //Mètode static genèric que accepta 3 arguments
-    public static <T,U> void GenericMeth(T itemT, U itemU, int age){
 
-        System.out.println(itemT + ", " + itemU+", "+ age) ;
+    //Modifica l'apartat anterior de manera que els
+// arguments del mètode genèric siguin una llista d'arguments de variable indefinida.
+    public <U> void GenericMeth(U...Persona){
+        System.out.println() ;
     }
 
 }

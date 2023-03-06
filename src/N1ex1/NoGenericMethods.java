@@ -1,3 +1,5 @@
+package N1ex1;
+
 public class NoGenericMethods {
 
 //    Crea una classe anomenada NoGenericMethods que emmagatzemi tres objectes del

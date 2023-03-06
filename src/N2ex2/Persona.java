@@ -1,4 +1,4 @@
-package N2ex1;
+package N2ex2;
 
 public class Persona {
 

@@ -1,19 +1,12 @@
-package N1ex1;
+package N1ex2;
 
-public class NoGenericMethods {
+public class GenericMethods {
 
-//    Crea una classe anomenada NoGenericMethods que emmagatzemi tres objectes del
-//    mateix tipus, juntament amb els mètodes per a emmagatzemar i extreure aquests objectes i un constructor per
-//    a inicialitzar els tres. Comprova que els arguments es poden posar en qualsevol posició en la crida al
-//    constructor.
-    public static void main(String[] args) {
+    //Mètode static genèric que accepta 3 arguments
+    public static <T,U,K> void GenericMeth(T itemT, U itemU, K itemK){
 
-        Car car1 = new Car("Seat", "red", 1500 );
-        Car car2 = new Car(1800, "blue", "Volkswagen");
-        Car car3 = new Car("Fiat", 1600,"white");
-
-        System.out.println(car1.toString());
-        System.out.println(car2.toString());
-        System.out.println(car3.toString());;
+        System.out.println(itemT + ", " + itemU+", "+ itemK ) ;
     }
+
 }
+

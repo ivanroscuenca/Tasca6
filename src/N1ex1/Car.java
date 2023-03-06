@@ -1,3 +1,5 @@
+package N1ex1;
+
 public class Car <T,U,K> {
 
     private T tItem;
