@@ -1,47 +1,27 @@
 package N1ex1;
 
-public class Car <T,U,K> {
+public class Car  {
 
-    private T tItem;
-    private U uItem;
-    private K kItem;
+    private String nom;
 
-    public Car(T tItem, U uItem, K kItem) {
-        this.tItem = tItem;
-        this.uItem = uItem;
-        this.kItem = kItem;
+    public Car(String nom) {
+        this.nom = nom;
+;
     }
 
-    public T gettItem() {
-        return tItem;
+    public String getNom() {
+        return nom;
     }
 
-    public void settItem(T tItem) {
-        this.tItem = tItem;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
-    public U getuItem() {
-        return uItem;
-    }
-
-    public void setuItem(U uItem) {
-        this.uItem = uItem;
-    }
-
-    public K getkItem() {
-        return kItem;
-    }
-
-    public void setkItem(K kItem) {
-        this.kItem = kItem;
-    }
 
     @Override
     public String toString() {
         return "Car{" +
-                "tItem=" + tItem +
-                ", uItem=" + uItem +
-                ", kItem=" + kItem +
+                "nom='" + nom + '\'' +
                 '}';
     }
 }
